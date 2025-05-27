@@ -1,3 +1,4 @@
+
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,7 +9,7 @@ datasource db {
 }
 
 model User {
-  id       String   @id @default(uuid())
-  username String
-  password String
+  id            String        @id   @default(uuid())
+  username      String
+  password      String
 }
