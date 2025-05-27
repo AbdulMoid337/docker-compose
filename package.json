@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.ts",
-    "builsd": "tsc -b"
+    "start": "node dist/index.js",
+    "build": "tsc -b"
   },
   "keywords": [],
   "author": "",
